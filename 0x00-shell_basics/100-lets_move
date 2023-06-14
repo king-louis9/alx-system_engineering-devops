@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p /tmp/u find . -type f -name '*[[:UPPER:]]*' -exec mv -t /tmp/u
+mkdir -p /tmp/u find . -type f -name '*[[:UPPER:]]*'
