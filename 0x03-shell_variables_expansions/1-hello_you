@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello user" > /root
+echo "hello $root" /root
