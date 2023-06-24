@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p "/tmp/u" find . -type f -name '*[[:UPPER:]]*' "/tmp/u
+mv [[:UPPER:]]* /tmp/u
