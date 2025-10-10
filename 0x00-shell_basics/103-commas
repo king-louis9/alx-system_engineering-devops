@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | paste -sd,
+ls -Alp | LC_COLLATE=C sort -f -d | sed '1i..\n.' | paste -sd,
